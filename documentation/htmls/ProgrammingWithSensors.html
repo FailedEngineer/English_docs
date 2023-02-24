@@ -9,29 +9,28 @@
 
     <p></p>
     <h5>
-        Şimdi hareket sensörlerimizin bize verdiği bilgiden faydalanarak bir aydınlatma direğini etrafında bir hareketin var olmasına göre nasıl açıp kapatabileceğimizi öğrenelim:
-    </h5>
+      Now, let's learn how we can turn a lighting pole on and off according to the presence of movement around it, using the information given to us by our motion sensors:
      <br>
     
     <img style="width: 100%;" src="/mini-browser//workspace/src/_lib/edusimsteam_main_docs/documentation/images/S4-MotionCode.gif"
         alt="" title="LightPlacement">
         
-   <h5>Hareket sensörü tespit alanı içerisinde bir hareket algılarsa aktif hale gelir. Sensör aktif hale geldiğinde aşağıda gösterilen Hareket Sensörü bloğu <b>Doğru</b> çıktısını verir.
-       Eğer hareket sensörü tespit alanı içerisinde bir hareket algılamazsa sensör pasif hale gelir ve hareket bloğu <b>Yanlış</b> çıktısını verir. </h5>
+   <h5>It activates if the motion sensor detects motion within the detection area. Motion Sensor block shown below when the sensor is active it will give <b>True</b>.
+    If the motion sensor does not detect a motion within the detection area, the sensor becomes inactive and the motion block it will show <b>False</b> as an output. </h5>
    <br>
     <img style="width: 60%;" src="/mini-browser//workspace/src/_lib/edusimsteam_main_docs/documentation/images/Motion_Block.png"
         alt="" title="LightPlacement">
-  <h5> Buna göre aşağıdaki adımları takip ederek bir blok programı oluşturmalısın:</h5>
+  <h5> Accordingly, you should create a block program by following the steps below:</h5>
         <ul>
       <li>
-        <h5> Hareket bloğu <b>Doğru</b> çıktısı verirse, aydınlatma direğini yakmalısın. </h5>
+        <h5> If the motion block outputs <b>True</b>, you should light the lamppost. </h5>
       </li>
       <li>
-        <h5>Hareket bloğu <b>Yanlış</b> çıktısı verirse, aydınlatma direğini söndürmelisin. 
+        <h5>If the motion block outputs <b>False</b>, you should turn off the lamp post.
           </h5>
       </li>
         <li>
-        <h5>Yazdığın programın aktif hale gelmesi için Simülasyonu çalıştırman gerekiyor. Bunun için simülasyon ekranındaki <b>Start</b> tuşuna basman gerekir. Eğer simülasyon çalışıyor ise,önce <b>Stop</b> tuşuna basarak simülasyonu durdurup, tekrar <b>Start</b> tuşuna basarak tekrar çalıştırmalısın. 
+        <h5>In order for the program you wrote to be active, you need to run the Simulation. For this, you need to press the <b>Start</b> button on the simulation screen. If the simulation is running, you must first stop the simulation by pressing the <b>Stop</b> key and run it again by pressing the<b>Start</b> key. 
           </h5>
       </li>  
     </ul>
